@@ -1,0 +1,83 @@
+/* =================== CSS BODY =================== */
+.fondo-body{
+	background: url(../imagen/fondo.jpg);
+  	background-attachment: scroll;
+ 	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 100%;
+}
+
+.container{
+	min-height: 750px;
+	margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+header h3, h4{
+  text-align: center;
+  color: #045A52;
+  width: 100%;
+}
+
+p, h5{
+  color: #045A52;
+}
+
+/* =================== CSS FOODER =================== */
+
+footer {
+  background-color: #045A52;
+  width: 100%;
+  height: 60px;
+  color: white;
+}
+
+/* =================== CSS TABLA =================== */
+.tabla table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla {
+  border: 1px solid #045A52;
+  background: #FFF;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tabla table td,
+.tabla table th {
+  padding: 5px 10px;
+}
+
+.tabla table thead th {
+  text-align: center;
+  background-color:#045A52;
+  color:#FFF;
+  font-size: 15px;
+  font-weight: bold;
+  border-left: 1px solid #FFF;
+}
+
+.tabla table tbody td {
+  color: #00496B;
+  border-left: 1px solid #045A52;
+  border-bottom: 1px dashed #045A52;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.tabla table thead th:first-child {
+  border: none;
+}
+
+.tabla table tbody td:first-child {
+  border-left: none;
+}
+
+.tabla table tbody tr:last-child td {
+  border-bottom: none;
+
+}
